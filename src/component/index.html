@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+        /* General Reset */
+body, h1, h2, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styling */
+section {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin: 5px 0;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+}
+
+    </style>
+    <header>Welcome to My Page</header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Service</li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>About Us</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        similique temporibus harum. Numquam temporibus voluptates voluptatum
+        ipsa natus minima reiciendis ex dolore, consequuntur assumenda fugiat
+        itaque nostrum consectetur modi, magni corporis cum hic amet maxime?
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Service</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>App Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="" id="" placeholder="Enter Your Name" />
+        <label for="name">Email:</label>
+        <input type="text" name="" id="" placeholder="Enter Your Email" />
+        <label for="name">Messsage:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          rows="4"
+          required
+        ></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+
+    <footer>
+        <p>Copyright 2022</p>
+    </footer>
+  </body>
+</html>
